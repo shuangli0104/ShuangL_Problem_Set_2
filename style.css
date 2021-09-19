@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+#About {
+  margin: 30px;
+  padding-top: 50px;
+}
+
+h2, h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-primary {
+  color: #116586;
+}
+
+.text-secondary {
+  color: #f5a419;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: #116586;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 20px;
+  margin: 0 40px;
+  color: #fff;
+}
+
+nav a:hover {
+  border-bottom: #fff 2px solid;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Hobbies */
+#Hobbies {
+  margin: 20px 0px;
+  padding: 10px;
+  background-color: #f4dec9;
+}
+
+#Hobbies h2{
+  text-align: center;
+}
+
+#Hobbies ul {
+  display: flex;
+  margin: 0px 100px;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content:space-between;
+}
+
+/* Cats */
+#Cats {
+  margin: 30px 0px 0px 0px;
+}
+
+
+img {
+  width: 20%;
+  border-radius: 15px;
+}
+
+#Cats img {
+  justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+
+#Cats h2 {
+  text-align: center;
+}
+
+#Cats p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+/* BTS */
+#BTS {
+  /* margin: 10px 0px; */
+  padding: 10px;
+  background-color: #f4dec9;
+}
+
+#BTS h2 {
+  text-align: center;
+}
+
+#BTS p {
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+/* Anime */
+#Anime h2 {
+  text-align: center;
+}
+
+#Anime p {
+  text-align: center;
+}
+
+#Anime img {
+  justify-content: space-between;
+  margin: 0 5px 0 5px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  padding: 10px;
+  background-color: #f4dec9;
+}
